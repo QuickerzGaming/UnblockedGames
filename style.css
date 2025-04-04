@@ -1,12 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
 .container {
   display: flex;
-  height: 100vh; /* hele schermhoogte */
+  width: 100vw;
+  height: 100vh;
 }
 
 .left-side, .right-side {
-  width: 50%; /* beide nemen 50% */
+  width: 50%;
   padding: 40px;
-  box-sizing: border-box;
 }
 
 .left-side {
@@ -14,7 +26,7 @@
 }
 
 .right-side {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .game-button {
