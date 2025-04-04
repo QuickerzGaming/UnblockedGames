@@ -20,3 +20,7 @@ body {
 .game-button:hover {
     background-color: #45a049;
 }
+
+h2 {
+  text-align: right;
+}
