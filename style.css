@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,18 +8,18 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
 }
 
 .container {
   display: flex;
-  width: 100vw;
+  width: 100%; /* Zorg dat het de volledige breedte neemt */
   height: 100vh;
 }
 
 .left-side, .right-side {
-  width: 50%;
+  width: 50%; /* Beide zijden nemen 50% van de breedte */
   padding: 40px;
+  box-sizing: border-box;
 }
 
 .left-side {
@@ -27,8 +28,8 @@ html, body {
 
 .right-side {
   background-color: #fff;
+  overflow: hidden;
 }
-
 .game-button {
   display: block;
   margin-bottom: 20px;
